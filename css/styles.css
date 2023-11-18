@@ -356,6 +356,14 @@ img {
   padding: 100px 0;
 }
 
+.footer-wrap {
+  display: flex;
+}
+
+.footer-logo {
+  margin-right: 120px;
+}
+
 .footer .logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -379,4 +387,17 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.footer-social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-social .social_card {
+  gap: 16px;
 }
