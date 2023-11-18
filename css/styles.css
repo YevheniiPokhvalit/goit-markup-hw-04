@@ -154,7 +154,7 @@ img {
 .hero-section {
   align-items: center;
   padding: 188px 0;
-  background-image: url(/images/people_office.jpg);
+  background-image: url(./images/people_office.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: rgba(46, 47, 66, 0.7);
