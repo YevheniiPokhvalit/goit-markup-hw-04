@@ -255,6 +255,35 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.social_card {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social_list {
+  width: 40px;
+  height: 40px;
+}
+
+.social_link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.social_link:hover,
+.social_link:focus {
+  background-color: #404bbf;
+}
+
+.social_icon {
+  fill: #f4f4fd;
+}
+
 .team-employee-wrap {
   padding: 32px 0;
 }
